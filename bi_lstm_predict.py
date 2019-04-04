@@ -41,4 +41,4 @@ def pb_node_name(pb_file_path):
             graph_def.ParseFromString(f.read())
             print(graph_def)
 pb_node_name(pb_file_path)
-pb_predict(pb_file_path)
+#pb_predict(pb_file_path)
