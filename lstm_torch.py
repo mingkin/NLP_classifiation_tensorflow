@@ -88,6 +88,7 @@ class RNN(nn.Module):
         # [256*2] => [1]
         self.fc = nn.Linear(hidden_dim * 2, 1)
         self.dropout = nn.Dropout(0.5)
+
         self.x = x
     def forward(self):
         """
