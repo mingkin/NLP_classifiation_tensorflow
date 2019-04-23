@@ -82,7 +82,7 @@ def preprocess():
 
 def train(x_train, y_train, embedding_weights, x_dev, y_dev):
     # Training
-    # ==================================================
+    # =================================================
     # Create session
     session_conf = tf.ConfigProto()
     sess = tf.Session(config=session_conf)
